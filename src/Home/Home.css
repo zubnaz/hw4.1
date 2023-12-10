@@ -1,0 +1,32 @@
+div.home {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+div.home div.filmCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    font-size: 33px;
+    width: 30%;
+    margin: 30px;
+    padding: 30px;
+    background-color: khaki;
+    border-radius: 13px;
+    row-gap: 10px;
+}
+
+div.home div.filmCard button {
+    padding: 30px;
+    font-size: 27px;
+    outline: none;
+    border: none;
+    background-color: inherit;
+    transition: all 0.1s;
+}
+
+div.home div.filmCard button:active {
+    font-weight: 600;
+}

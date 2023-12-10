@@ -1,0 +1,17 @@
+div.menu {
+    display: flex;
+    background-color: khaki;
+}
+
+div.menu a {
+
+    padding: 15px;
+    font-size: 21px;
+    color: black;
+    text-decoration: none;
+    transition: all 0.1s;
+}
+
+div.menu a:hover {
+    background-color: rgb(214, 200, 67);
+}
